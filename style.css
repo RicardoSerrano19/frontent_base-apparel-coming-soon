@@ -89,6 +89,7 @@ input::placeholder{
 }
 
 .content_suscription__btn{
+    outline: none;
     background: none;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
@@ -113,4 +114,12 @@ input::placeholder{
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
+}
+
+.content_suscription__btn:hover{
+    background: linear-gradient(135deg, hsl(0, 80%, 95%), hsl(0, 74%, 74%));
+}
+
+.content_suscription__text:focus{
+    outline: 2px solid var(--desaturated-red);
 }
