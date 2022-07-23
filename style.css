@@ -19,9 +19,20 @@ html {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-body{
+main{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0;
+    flex-direction: column;
+}
+
+.header{
+    margin: 1.5rem 2rem;
+}
+
+.image{
+    width: 100%;
+    height: 300px;
+    background-image: url('./images/hero-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
