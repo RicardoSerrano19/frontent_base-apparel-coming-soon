@@ -116,10 +116,27 @@ input::placeholder{
     position: absolute;
 }
 
+.content_suscription__btn::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -80%;
+    background-image: url('./images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    visibility: hidden;
+}
+
 .content_suscription__btn:hover{
     background: linear-gradient(135deg, hsl(0, 80%, 95%), hsl(0, 74%, 74%));
 }
 
 .content_suscription__text:focus{
     outline: 2px solid var(--desaturated-red);
+}
+
+.show::before{
+    visibility: visible;
 }
