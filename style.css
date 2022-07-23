@@ -61,3 +61,12 @@ main{
     font-weight: 600;
     color: var(--dark-grayish-red);
 }
+
+.content__description{
+    text-align: center;
+    color: var(--desaturated-red);
+}
+
+.content__description p{
+    font-weight: 400;
+}
