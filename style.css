@@ -19,6 +19,12 @@ html {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+body{
+    background-image: url('./images/bg-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 main{
     display: flex;
     flex-direction: column;
