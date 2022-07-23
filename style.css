@@ -68,6 +68,7 @@ main{
 }
 
 .content__description p{
+    margin: 2rem 0 3rem 0;
     font-weight: 400;
 }
 
@@ -139,4 +140,8 @@ input::placeholder{
 
 .show::before{
     visibility: visible;
+}
+
+.error{
+    outline: 2px solid var(--soft-red);
 }
